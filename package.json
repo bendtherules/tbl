@@ -1,0 +1,39 @@
+{
+  "name": "tbl",
+  "version": "1.0.0",
+  "description": "In memory tabular data",
+  "main": "dist/tbl.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendtherules/tbl.git"
+  },
+  "keywords": [
+    "table",
+    "data",
+    "memory",
+    "tabular"
+  ],
+  "authors": [
+    "Rousan Ali <rousanali786@gmail.com> (https://rousan.io)",
+    "Abhas Bhattacharya <abhasbhattacharya2@gmail.com> (https://github.com/bendtherules)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendtherules/tbl/issues"
+  },
+  "homepage": "https://github.com/bendtherules/tbl#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-loader": "^8.0.0-beta.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "webpack": "^3.10.0"
+  }
+}
